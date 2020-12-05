@@ -1,7 +1,7 @@
 version: "2"
 services:
-  app:
-    build: ./
+  stocksocket:
+    build: ./stock-socket
     links:
       - db
     #ports:
@@ -14,7 +14,7 @@ services:
       - "32000:3306"
     environment:
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
-      MYSQL_DATABASE: datascraper
+      #MYSQL_DATABASE: datascraper
       MYSQL_USER: root
     # Runs init.sql files to setup test data.
     volumes:

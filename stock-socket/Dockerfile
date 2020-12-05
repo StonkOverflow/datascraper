@@ -16,4 +16,4 @@ COPY Pipfile* /app/
 RUN pip install pipenv && \
     pipenv install --system --deploy --dev
 
-COPY stock-socket/forex_stream.py /app
+COPY forex_stream.py /app

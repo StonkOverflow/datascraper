@@ -8,12 +8,8 @@ pylint = "*"
 
 [packages]
 websocket-client = "*"
-pandas = "*"
-jupyter = "*"
-matplotlib = "*"
 sqlalchemy = "*"
 mysql-connector = "*"
-selenium = "*"
 
 [requires]
 python_version = "3.8"
