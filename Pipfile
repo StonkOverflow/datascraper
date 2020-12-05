@@ -4,10 +4,15 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
 
 [packages]
-selenium = "*"
+websocket-client = "*"
+pandas = "*"
 jupyter = "*"
+matplotlib = "*"
+sqlalchemy = "*"
+mysql-connector = "*"
 
 [requires]
 python_version = "3.8"
