@@ -27,3 +27,7 @@ To rebuild images from scratch do
 To get the python things you need, first `pip install pipenv` then `pipenv install && pipenv shell`
 
 To run mysql commands locally make sure you install the mysql-server first.
+
+### For darkpools
+
+Make sure you have the selenium chrome webdriver installed and on the path
