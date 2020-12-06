@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pandas = "*"
+jupyter = "*"
+matplotlib = "*"
+pylint = "*"
+
+
+[packages]
+websocket-client = "*"
+sqlalchemy = "*"
+mysql-connector = "*"
+
+[requires]
+python_version = "3.8"
