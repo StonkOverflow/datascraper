@@ -10,6 +10,7 @@ services:
     build: ./darkpools
     depends_on:
       - chrome
+      - db
     links:
       - db
       - chrome
@@ -19,6 +20,8 @@ services:
 
   stocksocket:
     build: ./stock-socket
+    depends_on:
+      - db
     links:
      - db
     tty: true
